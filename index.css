@@ -1,0 +1,75 @@
+.nav {
+  list-style: none;
+}
+.nav-links {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.heading{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+li {
+  padding: 15px;
+}
+.banner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  background-image: url(banner.jpg);
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.land{
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-card{
+    border: 2px solid rgb(241, 238, 238);
+    height: 55vh;
+    border-radius: 25px;  
+    width: 30%;
+  
+}
+.banner-background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;
+    width: 100%;
+}
+.main-banner1{
+    background-image: url(pragliding.jpg);
+    border-top-left-radius:  25px;  
+    border-top-right-radius:  25px;   
+}
+.main-banner2{
+    background-image: url(riverrafting.jpg);
+    border-top-left-radius:  25px;  
+    border-top-right-radius:  25px;  
+}
+.main-banner3{
+    background-image: url(skiing.jpg);
+    border-top-left-radius:  25px;  
+    border-top-right-radius:  25px;  
+}
+.card-text{
+    padding: 10px;
+}
